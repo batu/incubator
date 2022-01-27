@@ -9,6 +9,8 @@ If you plan to work on an issue, let us know in the issue thread so we can avoid
 
 ## Dev Setup
 
+Navigate to the root folder after cloning the repo. For this project Python version 3.9 is recommended.
+
 ```bash
 poetry install
 poetry run pip install torch==1.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
